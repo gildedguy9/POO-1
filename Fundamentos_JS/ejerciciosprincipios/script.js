@@ -55,7 +55,57 @@ function evaluarCreciente(){
 evaluarCreciente(); */
 
 
-/*ejercicio numero4*/
+
+/*ejercicio numero4
+
+function calcularPromedio() {
+    let suma = 0;
+    for (let i = 1; i <= 5; i++) {
+    let calificacion = parseFloat(prompt("Ingrese la calificación " + i + ":"));
+    suma += calificacion;
+    }
+    let promedio = suma / 5;
+    console.log(promedio);
+}
+
+calcularPromedio();*/
+
+
+
+
+ejercicio5
+
+
+let n = parseInt(prompt("ingrese un numero: "));
+
+function numnerosNaturales(numero){
+    let array = [];
+    let suma = 0;
+    for(let i = 1; i <= numero; i++ ){
+        array.push(i);
+        suma += i;
+    }
+    return array;
+}
+
+console.log(`los numeros naturales son: ${array}`);
+
+
+/*
+ejercicio6
+
+function imprimirPares(rango){
+    pares = [];
+    for(let i = 2; i <= rango; i+=2 ){
+        pares.push(i);
+    }
+    return pares;
+}
+
+console.log(imprimirPares(200).join(" - "));
+
+*/
+
 
 
 
