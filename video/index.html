@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vieditos</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top">
+        <nav class="nav-container">
+            <h1>videitos.com</h1>
+            <input type="text" placeholder="Search" name="query" class="search" aria-label="Search videos">
+            <button class="btn" aria-label="inicia sesion">inicia sesion</button>
+        </nav>
+    </header>
+
+    <main class="flex-container">
+        <section class="col-l">
+            <video id="mainVideo" width="720" height="400" controls aria-label="Main video player">
+                <source src="autitos.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="row">
+                <div class="start">
+                    <h2 id="videoTitle">videos</h2>
+                    <p id="videoInfo">60.8K Vistas </p>
+                    <div class="user">
+                        <img src="you.jng" alt="usuario" class="avatar-s"> 
+                        <span class="user-name">mejores videos de autos</span>
+                    </div>
+                </div>
+                <button class="btn" aria-label="sucribete">Subscribe</button>
+            </div>
+        </section>
+
+        <aside class="col-r">
+            <h3 class="sub-header">siguiente..</h3>
+            <div class="video-small" data-src="R35 GTR.mp4" data-title="R35 gtr " data-info="10M Vistas | ">
+                <img src="buuuu.png" alt="R35 gtr" class="vid-s">
+                <div class="video-info">
+                    <span class="video-title">R35 GTR edit</span>
+                    <span class="video-views">10M Views | </span>
+                </div>
+            </div>
+            <div class="video-small" data-src="SUPRA.mp4" data-title="Supra edit" data-info="5M Vistas |">
+                <img src="supraedit.png" alt="Thumbnail for 10 Facts About ET's Cat!" class="vid-s">
+                <div class="video-info">
+                    <span class="video-title">supra car edit</span>
+                    <span class="video-views">5M Views |</span>
+                </div>
+            </div>
+            <div class="video-small" data-src="R35plomo.mp4" data-title="R35 edit plomo" data-info="2M Vistas | ">
+                <img src="r35plomos.png" alt="R35 edit" class="vid-s">
+                <div class="video-info">
+                    <span class="video-title">R35 plomo edit</span>
+                    <span class="video-views">2M Views | </span>
+                </div>
+            </div>
+            <div class="video-small" data-src="rambo.mp4" data-title="autos" data-info="8M Vistas | ">
+                <img src="rambo2.png" alt="autos 2" class="vid-s">
+                <div class="video-info">
+                    <span class="video-title">autos 2</span>
+                    <span class="video-views">8M Views | </span>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
